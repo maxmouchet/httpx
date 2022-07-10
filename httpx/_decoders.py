@@ -258,9 +258,8 @@ class LineDecoder:
     """
     Handles incrementally reading lines from text.
 
-    Uses universal line decoding, supporting any of `\n`, `\r`, or `\r\n`
-    as line endings.
-    https://docs.python.org/3/library/stdtypes.html#str.splitlines
+    Uses universal line decoding, supporting line endings specified in
+    https://docs.python.org/3/library/stdtypes.html#str.splitlines.
     """
 
     def __init__(self) -> None:
